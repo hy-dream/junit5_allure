@@ -1,20 +1,12 @@
+package allureDemo;
+
 import com.alibaba.fastjson.JSONObject;
 import io.restassured.RestAssured;
-import io.restassured.builder.ResponseSpecBuilder;
-import io.restassured.response.Response;
-import io.restassured.specification.ResponseSpecification;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import java.net.URI;
-import java.util.HashMap;
-import java.util.Map;
-
-import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
-import static io.restassured.path.json.JsonPath.from;
-import static org.hamcrest.Matchers.*;
-import static io.restassured.module.jsv.JsonSchemaValidator.*;
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.equalTo;
 
 
 public class apiTest {
@@ -34,11 +26,8 @@ public class apiTest {
 
         given().log().all().contentType("application/json").body(body).when().post("/ontoqa").
                 then().
-                body("statusCode",equalTo(200)).log().all().body("data.conditions.people[0].name",equalTo("习近平"));
+                body("statusCode",equalTo(200)).log().all().body("data.conditions.people[0].name",equalTo("习近平1"));
         //System.out.println(content.getBody().prettyPrint());
     }
-
-
-
 
 }

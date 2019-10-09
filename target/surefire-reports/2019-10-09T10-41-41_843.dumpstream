@@ -1,0 +1,27 @@
+# Created on 2019-10-09T10:41:44.014
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+# Created on 2019-10-09T10:41:44.016
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+# Created on 2019-10-09T10:41:44.017
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+# Created on 2019-10-09T10:41:45.301
+WARNING: An illegal reflective access operation has occurred
+
+# Created on 2019-10-09T10:41:45.302
+WARNING: Illegal reflective access by org.codehaus.groovy.vmplugin.v7.Java7$1 (file:/C:/Users/hanying.apabi/AppData/Local/Temp/surefire1278252405412406310/..%5C..%5C..%5C..%5C..%5Chanying.apabi%5C.m2%5Crepository%5Corg%5Ccodehaus%5Cgroovy%5Cgroovy%5C2.5.6%5Cgroovy-2.5.6.jar) to constructor java.lang.invoke.MethodHandles$Lookup(java.lang.Class,int)
+
+# Created on 2019-10-09T10:41:45.303
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.vmplugin.v7.Java7$1
+
+# Created on 2019-10-09T10:41:45.304
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created on 2019-10-09T10:41:45.305
+WARNING: All illegal access operations will be denied in a future release
+
+# Created on 2019-10-09T10:41:45.781
+[AppClassLoader@299a06ac] warning javax.* types are not being woven because the weaver option '-Xset:weaveJavaxPackages=true' has not been specified
+

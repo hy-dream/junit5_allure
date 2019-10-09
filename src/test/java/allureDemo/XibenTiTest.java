@@ -1,3 +1,5 @@
+package allureDemo;
+
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.JSONPath;
 import io.restassured.RestAssured;
@@ -8,9 +10,6 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.hasItem;
-
 
 
 public class XibenTiTest {
@@ -21,7 +20,7 @@ public class XibenTiTest {
     }
 
 
-    @DisplayName("我是标题 junit5")
+    @DisplayName("我是标题 junit5 ALLURE")
     @Test()
     public void testShiTiCi(){
         JSONObject body=new JSONObject();

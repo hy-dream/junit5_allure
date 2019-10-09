@@ -1,3 +1,5 @@
+package JsonUtil;
+
 import com.google.gson.*;
 
 import java.util.ArrayList;
@@ -6,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 import org.apache.log4j.Logger;
 
-public class JsonSameUtilWithSkipVerfify {
+public  class JsonSameUtilWithSkipVerfify {
     private static final Gson gson=new Gson();
     private static final JsonParser parser=new JsonParser();
     private static Logger logger = Logger.getLogger(JsonSameUtilWithSkipVerfify.class);

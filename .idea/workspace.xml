@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d44919-b844-4537-ac45-26446e33553b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JsonSameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allureDemo/JsonSameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/XibenTiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allureDemo/XibenTiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allureDemo/apiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/allureDemo/testTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/util/JsonSameUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonUtil/JsonSameUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/util/JsonSameUtilWithSkipVerfify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonUtil/JsonSameUtilWithSkipVerfify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/util/fastJsonDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonUtil/fastJsonDiff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonSameTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonSameUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JsonSameUtilWithSkipVerfify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/XibenTiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/apiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/fastJsonDiff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,18 +45,23 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/allureDemo" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hanying.apabi\IdeaProjects\junit5-allure\src\test\java\allureDemo" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hanying.apabi\IdeaProjects\junit5-allure\src\main\resources" />
+      <recent name="C:\Users\hanying.apabi\IdeaProjects\junit5-allure\src\test\util" />
       <recent name="C:\Users\hanying.apabi\IdeaProjects\junit5-allure\src\test" />
+      <recent name="C:\Users\hanying.apabi\IdeaProjects\junit5-allure\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -59,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JsonSameTest">
+  <component name="RunManager" selected="JUnit.JsonSameTest.testJson (1)">
     <configuration name="JsonSameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JsonSameTest" />
       <module name="junit5-allure" />
@@ -68,8 +85,43 @@
       </method>
     </configuration>
     <configuration name="fastJsonDiff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fastJsonDiff" />
+      <option name="MAIN_CLASS_NAME" value="JsonUtil.fastJsonDiff" />
       <module name="junit5-allure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonSameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-allure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonSameTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonSameTest.testJson (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-allure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="allureDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="allureDemo" />
+      <option name="MAIN_CLASS_NAME" value="allureDemo.JsonSameTest" />
+      <option name="METHOD_NAME" value="testJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonSameTest.testJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-allure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JsonSameTest" />
+      <option name="METHOD_NAME" value="testJson" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,9 +159,15 @@
       <item itemvalue="Application.fastJsonDiff" />
       <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="TestNG.Unnamed" />
+      <item itemvalue="JUnit.JsonSameTest" />
+      <item itemvalue="JUnit.JsonSameTest.testJson" />
+      <item itemvalue="JUnit.JsonSameTest.testJson (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonSameTest.testJson (1)" />
+        <item itemvalue="JUnit.JsonSameTest.testJson" />
+        <item itemvalue="JUnit.JsonSameTest" />
         <item itemvalue="Application.JsonSameTest" />
         <item itemvalue="Application.fastJsonDiff" />
       </list>
@@ -140,16 +198,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/JsonSameTest.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
